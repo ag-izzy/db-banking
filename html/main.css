@@ -1,0 +1,245 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit);
+
+.bank-body {
+  margin-left: 30vh;
+  margin-top: 20vh;
+  width: 120vh;
+  height: 60vh;
+  background: linear-gradient(102.67deg, rgba(0, 132, 227, 0.15) 10.07%, rgba(196, 196, 196, 0.0585938) 21.19%, rgba(196, 196, 196, 0) 65.99%, rgba(0, 132, 227, 0.15) 89.49%);
+  background-color: #181717;
+  border-radius: 3vh;
+}
+
+.exit {
+  position: absolute;
+  color: #ffffff59;
+  font-size: 3vh;
+  margin-left: 110vh;
+  margin-top: 4vh;
+}
+
+.person-info {
+  width: 15vh;
+  position: absolute;
+  color: #ffffff;
+  font-size: 1.5vh;
+  margin-top: 5vh;
+  margin-left: 10vh;
+}
+
+.person-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4vh;
+  height: 4vh;
+  border-radius: 3vh;
+  outline: solid 0.2vh #0084e342;
+}
+
+.person-name {
+  width: 30vh;
+  font-size: 2vh;
+  font-family: Kanit;
+  margin-top: -3.5vh;
+  margin-left: 5vh;
+}
+
+.balance-body {
+  position: absolute;
+  margin-left: 10vh;
+  margin-top: 15vh;
+  width: 40vh;
+  height: 15vh;
+  outline: solid 0.2vh #0084e342;
+}
+
+.balance-body-text1 {
+  position: absolute;
+  font-family: Kanit;
+  color: #878484;
+  font-size: 3vh;
+  margin-left: 2vh;
+  margin-top: 2vh;
+}
+
+.balance-body-text2 {
+  position: absolute;
+  font-family: Kanit;
+  color: #ffffff;
+  font-size: 6vh;
+  margin-left: 2vh;
+  margin-top: 5vh;
+}
+
+.balance-body-text3 {
+  position: absolute;
+  font-family: Kanit;
+  color: #0084e3;
+  font-size: 4vh;
+  margin-left: 22vh;
+  margin-top: 7vh;
+}
+
+.deposit-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vh;
+  height: 5vh;
+  outline: solid 0.2vh #0084e342;
+  margin-top: 15vh;
+  margin-left: 65vh;
+  font-family: Kanit;
+  color: #ffffff5e;
+  border-radius: 0.5vh;
+}
+
+.deposit-button1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vh;
+  height: 6vh;
+  background-color: #151f25;
+  margin-left: 39vh;
+  font-family: Kanit;
+  color: #ffffff;
+}
+
+.deposit-button2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vh;
+  width: 7vh;
+  height: 6vh;
+  background-color: #1d3038;
+  margin-left: 60vh;
+  color: #0084e3;
+  font-size: 2vh;
+}
+
+.withdraw-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vh;
+  height: 5vh;
+  outline: solid 0.2vh #0084e342;
+  margin-top: 23vh;
+  margin-left: 65vh;
+  font-family: Kanit;
+  color: #ffffff5e;
+  border-radius: 0.5vh;
+}
+
+.withdraw-button1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vh;
+  height: 6vh;
+  background-color: #151f25;
+  margin-left: 39vh;
+  font-family: Kanit;
+  color: #ffffff;
+}
+
+.withdraw-button2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vh;
+  width: 7vh;
+  height: 6vh;
+  background-color: #1d3038;
+  margin-left: 60vh;
+  color: #0084e3;
+  font-size: 2vh;
+}
+
+.transfer-button0 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vh;
+  height: 5vh;
+  margin-top: 31vh;
+  margin-left: 67.5vh;
+}
+
+.transfer-button1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  width: 23.5vh;
+  height: 10vh;
+  outline: solid 0.2vh #0084e342;
+  margin-top: 15vh;
+  margin-left: 43vh;
+  font-family: Kanit;
+  color: #ffffff5e;
+  border-radius: 0.5vh;
+}
+
+.transfer-button2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vh;
+  height: 6vh;
+  background-color: #151f25;
+  margin-left: 39vh;
+  font-family: Kanit;
+  color: #ffffff;
+}
+
+.transfer-button3 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vh;
+  width: 7vh;
+  height: 6vh;
+  background-color: #1d3038;
+  margin-left: 60vh;
+  color: #0084e3;
+  font-size: 2vh;
+}
+
+.transactions-body {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21vh;
+  height: 6vh;
+  background-color: #151f25;
+  color: #ffffff;
+  font-family: Kanit;
+  font-size: 2vh;
+  margin-left: 65vh;
+  margin-top: 30.5vh;
+}
+
+.transactions-body-outlines {
+  position: absolute;
+  width: 21vh;
+  height: 18vh;
+  outline: solid 0.2vh #0084e342;
+  margin-left: 65vh;
+  margin-top: 36.5vh;
+}
