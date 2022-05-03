@@ -11,6 +11,7 @@
     <title>DB-BANK</title>
 </head>
 <body>
+  <div class="container" style="display: block;">
 
   <div class="bank-body">
     <div class="person-info">
@@ -23,19 +24,19 @@
       <span class="balance-body-text3">$</span>
     </div>
     <div class="deposit-button">
-      <span>Enter amount</span>
+      <span id="deposit-amount">Enter amount</span>
       <div class="deposit-button1">DEPOSIT</div>
       <div class="deposit-button2"><i class="fa-solid fa-money-bill-transfer"></i></div>
     </div>
     <div class="withdraw-button">
-      <span>Enter amount</span>
+      <span id="withdraw-amount">Enter amount</span>
       <div class="withdraw-button1">WITHDRAW</div>
       <div class="withdraw-button2"><i class="fa-solid fa-money-bill-transfer"></i></div>
     </div>
     <div class="transfer-button0">
       <div class="transfer-button1">
-        <span>ENTER PLAYER ID</span>
-        <span>AMOUNT</span>
+        <span id="transfer-player-id">ENTER PLAYER ID</span>
+        <span id="transfer-amount">AMOUNT</span>
       </div>
       <div class="transfer-button2">TRANSFER</div>
       <div class="transfer-button3"><i class="fa-solid fa-money-bill-transfer"></i></div>
@@ -44,6 +45,10 @@
     <div class="transactions-body-outlines"></div>
     <div class="exit"><i class="fa-solid fa-circle-xmark"></i></div>
   </div>
+</div>
+  <script type="text/javascript" src="nui://game/ui/jquery.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@mojs/core@1.2.1/dist/mo.umd.min.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
 
 </body>
 </html>
