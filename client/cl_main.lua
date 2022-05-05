@@ -14,7 +14,7 @@ Citizen.CreateThread(function()
     end
 end)
 
-RegisterNetEvent("db-banking:open", function()
+RegisterNetEvent("db-banking:open", function
     OpenGui()    
 end)
 
