@@ -14,7 +14,9 @@ Citizen.CreateThread(function()
     end
 end)
 
-RegisterNetEvent("db-banking:open", OpenGui())
+RegisterNetEvent("db-banking:open", function()
+    OpenGui()    
+end)
 
 function CloseGui()
     SetNuiFocus(false,false)
