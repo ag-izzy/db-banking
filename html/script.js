@@ -2,8 +2,8 @@ window.addEventListener("message", function(event) {
     e = event.data
     if(e.show == true) {
         if (e.type == "updateData") {
-            $(".balance-body-text2").html(e.balance) //TODO Finish Rest
-            $("")
+            $(".balance-body-text2").html(e.balance)
+            $(".person-name").html(e.firstname + e.lastname)
         }
     }
 });
