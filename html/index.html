@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
     <script src="https://kit.fontawesome.com/2a806e65da.js" crossorigin="anonymous"></script>
     <title>DB-BANK</title>
@@ -24,19 +25,19 @@
       <span class="balance-body-text3">$</span>
     </div>
     <div class="deposit-button">
-      <span id="deposit-amount">Enter amount</span>
+      <input id="deposit-amount" placeholder="Enter amount"></input>
       <div class="deposit-button1">DEPOSIT</div>
       <div class="deposit-button2"><i class="fa-solid fa-money-bill-transfer"></i></div>
     </div>
     <div class="withdraw-button">
-      <span id="withdraw-amount">Enter amount</span>
+      <input id="withdraw-amount" placeholder="Enter amount"></input>
       <div class="withdraw-button1">WITHDRAW</div>
       <div class="withdraw-button2"><i class="fa-solid fa-money-bill-transfer"></i></div>
     </div>
     <div class="transfer-button0">
       <div class="transfer-button1">
-        <span id="transfer-player-id">ENTER PLAYER ID</span>
-        <span id="transfer-amount">AMOUNT</span>
+        <input id="transfer-player-id" placeholder="ENTER PLAYER ID"></input>
+        <input id="transfer-amount" placeholder="AMOUNT"></input>
       </div>
       <div class="transfer-button2">TRANSFER</div>
       <div class="transfer-button3"><i class="fa-solid fa-money-bill-transfer"></i></div>
@@ -46,8 +47,6 @@
     <div class="exit"><i class="fa-solid fa-circle-xmark"></i></div>
   </div>
 </div>
-  <script type="text/javascript" src="nui://game/ui/jquery.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@mojs/core@1.2.1/dist/mo.umd.min.js"></script>
   <script type="text/javascript" src="./script.js"></script>
 
 </body>
