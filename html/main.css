@@ -138,6 +138,24 @@
   border-radius: 0.5vh;
 }
 
+input {
+  font-family: Kanit;
+  color: #ffffff5e;
+  border-radius: 0.5vh;
+  font-size: 2vh;
+  text-align: center;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+input::placeholder {
+  font-family: Kanit;
+  color: #ffffff5e;
+  border-radius: 0.5vh;
+  text-align: center;
+}
+
 .withdraw-button1 {
   position: absolute;
   display: flex;
@@ -238,8 +256,34 @@
 .transactions-body-outlines {
   position: absolute;
   width: 21vh;
-  height: 18vh;
+  max-height: 18vh;
   outline: solid 0.2vh #0084e342;
   margin-left: 65vh;
   margin-top: 36.5vh;
+  overflow: auto;
+}
+
+.transactions-body-outlines span {
+  color: #ffffff;
+  font-family: Kanit;
+  font-size: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0505053f; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #0084e3; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0084e394; 
 }
