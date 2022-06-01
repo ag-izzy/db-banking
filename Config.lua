@@ -1,11 +1,17 @@
 Config = {}
 
-Config["BankZones"] = {
+Config.BankZones = {
     vector3(1,1,1),
     vector3(1,1,1),
     vector3(1,1,1)
 }
 
-Config["TargetName"] = "qtarget" -- Name of your qtarget / bt-target / qb-target
+Config.ATMS = {
+    `prop_atm_02`,
+    `prop_atm_03`,
+    `prop_fleeca_atm`,
+}
 
-Config["Framework"] = "esx" -- esx / qb (export)
+Config.TargetName = 'qb-target' -- Name of your qtarget / bt-target / qb-target
+
+Config.Framework = 'qb' -- esx / qb
