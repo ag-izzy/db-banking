@@ -1,10 +1,6 @@
 Config = {}
 
-Config.BankZones = {
-    vector3(1,1,1),
-    vector3(1,1,1),
-    vector3(1,1,1)
-}
+Config.BankZones = {}
 
 Config.ATMS = {
     `prop_atm_02`,
@@ -15,3 +11,23 @@ Config.ATMS = {
 Config.TargetName = 'qb-target' -- Name of your qtarget / bt-target / qb-target
 
 Config.Framework = 'qb' -- esx / qb
+
+Config.Language = 'lt'
+Config.Locales = {
+    ['lt'] = {
+        ['open_atm'] = 'Atidaryti bankomatą',
+        ['open_bank'] = 'Atidaryti banko meniu',
+        ['withdrew'] = 'Išsigrynino.',
+        ['deposited'] = 'Įnešė.',
+        ['from'] = 'iš',
+        ['to'] = '',
+    },
+    ['en'] = {
+        ['open_atm'] = 'Open ATM',
+        ['open_bank'] = 'Open bank',
+        ['withdrew'] = 'Withdrew.',
+        ['deposited'] = 'Deposited.',
+        ['from'] = 'from',
+        ['to'] = 'to',
+    }
+}
